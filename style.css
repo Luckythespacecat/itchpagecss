@@ -17,31 +17,31 @@
 
 @keyframes Show{
 0%{
-    display: none;
+    visibility: hidden;
 }
 1%{
-    display: none;
+    visibility: hidden;
 }
-99%{
-    display: none;
+90%{
+    visibility: hidden;
 }
 100%{
-    display: inline;
+    visibility: visible;
 }
 
 }
 @keyframes Hide{
 0%{
-    display: inline;
+    visibility: visible;
 }
 1%{
-    display: none;
+    visibility: hidden;
 }
-99%{
-    display: none;
+90%{
+    visibility: hidden;
 }
 100%{
-    display: none;
+    visibility: hidden;
 }
 }
 
@@ -50,8 +50,9 @@
     animation-name: CardFlipAnimation2;
     animation-duration: .5s;
     animation-fill-mode: forwards;
+
 .game_text {
-    display: none;
+
     background-size: cover;
     border-style: solid;
     animation-name: Hide;
@@ -59,25 +60,25 @@
     animation-fill-mode: forwards;
 }
 .game_title {
-    display: none;
+
     animation-name: Hide;
     animation-duration: .5s;
     animation-fill-mode: forwards;
 }
 .game_genre {
-    display: none;
+
     animation-name: Hide;
     animation-duration: .5s;
     animation-fill-mode: forwards;
 }
 .game_platform {
-    display: none;
+
     animation-name: Hide;
     animation-duration: .5s;
     animation-fill-mode: forwards;
 }
 .game_link {
-    display: none;
+
     animation-name: Hide;
     animation-duration: .5s;
     animation-fill-mode: forwards;
@@ -196,25 +197,25 @@ background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTg2LnBuZw==/original/EB
     animation-fill-mode: forwards;
 }
 .game_title {
-    display: none;
+
     animation-name: Show;
     animation-duration: .5s;
     animation-fill-mode: forwards;
 }
 .game_genre {
-    display: none;
+
     animation-name: Show;
     animation-duration: .5s;
     animation-fill-mode: forwards;
 }
 .game_platform {
-    display: none;
+
     animation-name: Show;
     animation-duration: .5s;
     animation-fill-mode: forwards;
 }
 .game_link {
-    display: none;
+
     animation-name: Show;
     animation-duration: .5s;
     animation-fill-mode: forwards;
