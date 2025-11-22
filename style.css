@@ -23,7 +23,7 @@
 }
 
 .game_cell:not(:hover) {
-    transform: scale(1);
+    transform: translateY(3px);
     animation-name: CardFlipAnimation2;
     animation-duration: .5s;
     animation-fill-mode: forwards;
@@ -75,106 +75,106 @@ animation-name: Hide;
 
 @keyframes CardFlipAnimation2 {
 0% {
-	transform: translateY(-15x) rotate(10deg);
+	transform: translateY(-5x) rotate(10deg);
 background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTg2LnBuZw==/original/EB%2Fyvu.png);
 }
-5% {
+7% {
 background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTczLnBuZw==/original/pMvttH.png);
 }
-10% {
+14% {
 background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTY0LnBuZw==/original/h009Qz.png);
 }
-15% {
+21% {
 background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTYyLnBuZw==/original/BYQzBY.png);
 }
-20% {
+28% {
 background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTU3LnBuZw==/original/iRdTd0.png);
 }
-25% {
+35% {
 background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTQ5LnBuZw==/original/24FA9l.png);
 }
-30% {
+42% {
 background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTMzLnBuZw==/original/%2FRJhVg.png);
 }
-35% {
+49% {
 background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTE2LnBuZw==/original/2BzJCO.png);
 }
-40% {
+56% {
 background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTEyLnBuZw==/original/7J3ARq.png);
 }
-45% {
+63% {
 background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTA5LnBuZw==/original/pR2%2B0j.png);
 }
-50% {
+70% {
 background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTA3LnBuZw==/original/Nys2zv.png);
 }
-70% {
+77% {
 background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTAzLnBuZw==/original/rwHCHP.png);
 }
-85% {
+84% {
 background-image: url(https://img.itch.zone/aW1nLzI0MTg3ODk5LnBuZw==/original/VR3xz5.png);
 }
-90% {
+99% {
 background-image: url(https://img.itch.zone/aW1nLzI0MTg3ODk1LnBuZw==/original/ybURAe.png);
 }
 100% {
 background-image: url(https://img.itch.zone/aW1nLzI0MTg3ODg0LnBuZw==/original/brUwjp.png);
-transform: translateY(0px) rotate(0deg);
+transform: translateY(3px) rotate(0deg);
 }
 
 }
 @keyframes CardFlipAnimation {
 0% {
-	transform: translateY(0px) rotate(0deg);
+	transform: translateY(3px) rotate(0deg);
 background-image: url(https://img.itch.zone/aW1nLzI0MTg3ODg0LnBuZw==/original/brUwjp.png);
 }
-5% {
+7% {
 background-image: url(https://img.itch.zone/aW1nLzI0MTg3ODk1LnBuZw==/original/ybURAe.png);
 }
-10% {
+14% {
 background-image: url(https://img.itch.zone/aW1nLzI0MTg3ODk5LnBuZw==/original/VR3xz5.png);
 }
-15% {
+21% {
 background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTAzLnBuZw==/original/rwHCHP.png);
 }
-20% {
+28% {
 background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTA3LnBuZw==/original/Nys2zv.png);
 }
-25% {
+35% {
 background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTA5LnBuZw==/original/pR2%2B0j.png);
 }
-30% {
+42% {
 background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTEyLnBuZw==/original/7J3ARq.png);
 }
-35% {
+49% {
 background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTE2LnBuZw==/original/2BzJCO.png);
 }
-40% {
+56% {
 background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTMzLnBuZw==/original/%2FRJhVg.png);
 }
-45% {
+63% {
 background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTQ5LnBuZw==/original/24FA9l.png);
 }
-50% {
+70% {
 background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTU3LnBuZw==/original/iRdTd0.png);
 }
-70% {
+77% {
 background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTYyLnBuZw==/original/BYQzBY.png);
 }
-85% {
+84% {
 background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTY0LnBuZw==/original/h009Qz.png);
 }
-90% {
+91% {
 background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTczLnBuZw==/original/pMvttH.png);
 }
 100% {
 background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTg2LnBuZw==/original/EB%2Fyvu.png);
-transform: translateY(-15px) rotate(10deg);
+transform: translateY(-5px) rotate(10deg);
 }
 }
 
 .game_cell:hover {
-    transform: scale(1.00);
+   transform: translateY(3px);
     animation-name: CardFlipAnimation;
     animation-duration: .5s;
     animation-fill-mode: forwards;
