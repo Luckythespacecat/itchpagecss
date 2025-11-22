@@ -75,6 +75,7 @@ animation-name: Hide;
 
 @keyframes CardFlipAnimation2 {
 0% {
+	transform: translateY(-15x) rotate(10deg);
 background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTg2LnBuZw==/original/EB%2Fyvu.png);
 }
 5% {
@@ -118,12 +119,13 @@ background-image: url(https://img.itch.zone/aW1nLzI0MTg3ODk1LnBuZw==/original/yb
 }
 100% {
 background-image: url(https://img.itch.zone/aW1nLzI0MTg3ODg0LnBuZw==/original/brUwjp.png);
-
+transform: translateY(0px) rotate(0deg);
 }
 
 }
 @keyframes CardFlipAnimation {
 0% {
+	transform: translateY(0px) rotate(0deg);
 background-image: url(https://img.itch.zone/aW1nLzI0MTg3ODg0LnBuZw==/original/brUwjp.png);
 }
 5% {
@@ -167,6 +169,7 @@ background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTczLnBuZw==/original/pM
 }
 100% {
 background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTg2LnBuZw==/original/EB%2Fyvu.png);
+transform: translateY(-15px) rotate(10deg);
 }
 }
 
