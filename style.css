@@ -1,0 +1,230 @@
+.game_cell {
+    padding: 60px;
+    border-radius: var(--itchio_border_radius);
+    border-width: 0px;
+    height: 360px;
+    width: 200px;
+    background-image: url("https://img.itch.zone/aW1nLzI0MTg2Njk0LnBuZw==/original/ZMlGt9.png")};
+.web_flag {
+    background-color: black !important;
+    color: white !important;
+}
+.game_thumb {
+    display: none;
+    background-size: cover;
+    border-style: solid;
+}
+
+@keyframes Show{
+0%{
+    display: none;
+}
+1%{
+    display: none;
+}
+99%{
+    display: none;
+}
+100%{
+    display: inline;
+}
+
+}
+@keyframes Hide{
+0%{
+    display: inline;
+}
+1%{
+    display: none;
+}
+99%{
+    display: none;
+}
+100%{
+    display: none;
+}
+}
+
+.game_cell:not(:hover) {
+    transform: scale(1);
+    animation-name: CardFlipAnimation2;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+.game_text {
+    display: none;
+    background-size: cover;
+    border-style: solid;
+    animation-name: Hide;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+.game_title {
+    display: none;
+    animation-name: Hide;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+.game_genre {
+    display: none;
+    animation-name: Hide;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+.game_platform {
+    display: none;
+    animation-name: Hide;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+.game_link {
+    display: none;
+    animation-name: Hide;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+
+}
+}
+
+@keyframes CardFlipAnimation2 {
+0% {
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTg2LnBuZw==/original/EB%2Fyvu.png);
+}
+5% {
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTczLnBuZw==/original/pMvttH.png);
+}
+10% {
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTY0LnBuZw==/original/h009Qz.png);
+}
+15% {
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTYyLnBuZw==/original/BYQzBY.png);
+}
+20% {
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTU3LnBuZw==/original/iRdTd0.png);
+}
+25% {
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTQ5LnBuZw==/original/24FA9l.png);
+}
+30% {
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTMzLnBuZw==/original/%2FRJhVg.png);
+}
+35% {
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTE2LnBuZw==/original/2BzJCO.png);
+}
+40% {
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTEyLnBuZw==/original/7J3ARq.png);
+}
+45% {
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTA5LnBuZw==/original/pR2%2B0j.png);
+}
+50% {
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTA3LnBuZw==/original/Nys2zv.png);
+}
+70% {
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTAzLnBuZw==/original/rwHCHP.png);
+}
+85% {
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3ODk5LnBuZw==/original/VR3xz5.png);
+}
+90% {
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3ODk1LnBuZw==/original/ybURAe.png);
+}
+100% {
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3ODg0LnBuZw==/original/brUwjp.png);
+
+}
+
+}
+@keyframes CardFlipAnimation {
+0% {
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3ODg0LnBuZw==/original/brUwjp.png);
+}
+5% {
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3ODk1LnBuZw==/original/ybURAe.png);
+}
+10% {
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3ODk5LnBuZw==/original/VR3xz5.png);
+}
+15% {
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTAzLnBuZw==/original/rwHCHP.png);
+}
+20% {
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTA3LnBuZw==/original/Nys2zv.png);
+}
+25% {
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTA5LnBuZw==/original/pR2%2B0j.png);
+}
+30% {
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTEyLnBuZw==/original/7J3ARq.png);
+}
+35% {
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTE2LnBuZw==/original/2BzJCO.png);
+}
+40% {
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTMzLnBuZw==/original/%2FRJhVg.png);
+}
+45% {
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTQ5LnBuZw==/original/24FA9l.png);
+}
+50% {
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTU3LnBuZw==/original/iRdTd0.png);
+}
+70% {
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTYyLnBuZw==/original/BYQzBY.png);
+}
+85% {
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTY0LnBuZw==/original/h009Qz.png);
+}
+90% {
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTczLnBuZw==/original/pMvttH.png);
+}
+100% {
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTg2LnBuZw==/original/EB%2Fyvu.png);
+}
+}
+
+.game_cell:hover {
+    transform: scale(1.00);
+    animation-name: CardFlipAnimation;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+.game_text {
+    display: none;
+    background-size: cover;
+    border-style: solid;
+    animation-name: Show;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+.game_title {
+    display: none;
+    animation-name: Show;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+.game_genre {
+    display: none;
+    animation-name: Show;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+.game_platform {
+    display: none;
+    animation-name: Show;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+.game_link {
+    display: none;
+    animation-name: Show;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+
+}
+    
+}
+.game_cell:hover .game_thumb {
+    filter: grayscale(0%); /* Remove grayscale on hover */
+}
+.user_page_wrap .icon {
+    color: black !important;
+}
