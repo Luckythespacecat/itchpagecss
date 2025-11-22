@@ -218,3 +218,32 @@ background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTg2LnBuZw==/original/EB
 .user_page_wrap .icon {
     color: black !important;
 }
+@keyframes Show{
+0%{
+    visibility: hidden;
+}
+1%{
+    visibility: hidden;
+}
+90%{
+    visibility: hidden;
+}
+100%{
+    visibility: visible;
+}
+
+}
+@keyframes Hide{
+0%{
+    visibility: visible;
+}
+1%{
+    visibility: hidden;
+}
+90%{
+    visibility: hidden;
+}
+100%{
+    visibility: hidden;
+}
+}
