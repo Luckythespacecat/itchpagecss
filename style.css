@@ -9,47 +9,20 @@
     background-color: black !important;
     color: white !important;
 }
-.game_thumb {
-    display: none;
-    background-size: cover;
-    border-style: solid;
-}
-
-@keyframes Show{
-0%{
-    visibility: hidden;
-}
-1%{
-    visibility: hidden;
-}
-90%{
-    visibility: hidden;
-}
-100%{
-    visibility: visible;
-}
-
-}
-@keyframes Hide{
-0%{
-    visibility: visible;
-}
-1%{
-    visibility: hidden;
-}
-90%{
-    visibility: hidden;
-}
-100%{
-    visibility: hidden;
-}
-}
 
 .game_cell:not(:hover) {
     transform: scale(1);
     animation-name: CardFlipAnimation2;
     animation-duration: .5s;
     animation-fill-mode: forwards;
+
+.game_thumb {
+    background-size: cover;
+    border-style: solid;
+	animation-name: Hide;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
 
 .game_text {
 
@@ -188,6 +161,13 @@ background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTg2LnBuZw==/original/EB
     animation-name: CardFlipAnimation;
     animation-duration: .5s;
     animation-fill-mode: forwards;
+.game_thumb {
+    background-size: cover;
+    border-style: solid;
+	animation-name: Show;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
 .game_text {
     display: none;
     background-size: cover;
