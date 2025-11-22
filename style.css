@@ -6,6 +6,10 @@
   font-style: normal;
 }
 
+.user_profile{
+    visibility: hidden;
+}
+
 .game_cell {
     padding: 60px;
     border-radius: var(--itchio_border_radius);
