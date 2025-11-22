@@ -25,7 +25,7 @@
 .game_cell:not(:hover) {
     transform: translateY(3px);
     animation-name: CardFlipAnimation2;
-    animation-duration: .5s;
+    animation-duration: .2s;
     animation-fill-mode: forwards;
 
 .game_thumb {
@@ -34,7 +34,7 @@
     border-style: dashed;
     border-width: 5px;
 animation-name: Hide;
-    animation-duration: .5s;
+    animation-duration: .2s;
     animation-fill-mode: forwards;
 }
 
@@ -43,31 +43,31 @@ animation-name: Hide;
     background-size: cover;
     border-style: solid;
     animation-name: Hide;
-    animation-duration: .5s;
+    animation-duration: .2s;
     animation-fill-mode: forwards;
 }
 .game_title {
 	font-family: 'Bree Serif', serif;
     animation-name: Hide;
-    animation-duration: .5s;
+    animation-duration: .2s;
     animation-fill-mode: forwards;
 }
 .game_genre {
 
     animation-name: Hide;
-    animation-duration: .5s;
+    animation-duration: .2s;
     animation-fill-mode: forwards;
 }
 .game_platform {
 	font-family: 'Bree Serif', serif;
     animation-name: Hide;
-    animation-duration: .5s;
+    animation-duration: .2s;
     animation-fill-mode: forwards;
 }
 .game_link {
 	font-family: 'Bree Serif', serif;
     animation-name: Hide;
-    animation-duration: .5s;
+    animation-duration: .2s;
     animation-fill-mode: forwards;
 
 }
@@ -176,7 +176,7 @@ transform: translateY(-5px) rotate(10deg);
 .game_cell:hover {
    transform: translateY(3px);
     animation-name: CardFlipAnimation;
-    animation-duration: .5s;
+    animation-duration: .2s;
     animation-fill-mode: forwards;
 .game_thumb {
     background-size: cover;
@@ -184,7 +184,7 @@ transform: translateY(-5px) rotate(10deg);
     border-radius: 20px;
 	border-width: 5px;
 	animation-name: Show;
-    animation-duration: .5s;
+    animation-duration: .2s;
     animation-fill-mode: forwards;
 }
 .game_text {
@@ -193,31 +193,31 @@ transform: translateY(-5px) rotate(10deg);
     background-size: cover;
     border-style: solid;
     animation-name: Show;
-    animation-duration: .5s;
+    animation-duration: .2s;
     animation-fill-mode: forwards;
 }
 .game_title {
 	font-family: 'Bree Serif', serif;
     animation-name: Show;
-    animation-duration: .5s;
+    animation-duration: .2s;
     animation-fill-mode: forwards;
 }
 .game_genre {
 	font-family: 'Bree Serif', serif;
     animation-name: Show;
-    animation-duration: .5s;
+    animation-duration: .2s;
     animation-fill-mode: forwards;
 }
 .game_platform {
 	font-family: 'Bree Serif', serif;
     animation-name: Show;
-    animation-duration: .5s;
+    animation-duration: .2s;
     animation-fill-mode: forwards;
 }
 .game_link {
 	font-family: 'Bree Serif', serif;
     animation-name: Show;
-    animation-duration: .5s;
+    animation-duration: .2s;
     animation-fill-mode: forwards;
 
 }
